@@ -43,7 +43,7 @@ describe "ruby" do
       expect{ greeting(greeting)}.to raise_error
     end
   end
-
+    
   describe '#return_a_value' do
     it 'returns the phrase "Nice"' do
       expect(return_a_value).to eq("Nice")
