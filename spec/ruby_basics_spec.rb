@@ -40,7 +40,7 @@ describe "ruby" do
     it 'raises an error with one argument' do
       greeting = "Hi there, "
 
-      expect{ greeting(greeting)}.to raise_error
+      expect{ greeting(greeting)}.to_not raise_error
     end
   end
 
