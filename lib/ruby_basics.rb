@@ -7,18 +7,20 @@ def assign_variable(value)
 end
 
 def argue(arg)
-  return arg
+  arg
 end
 
 def greeting(greeting, name)
-  "#{greeting}, #{name}!"
+  puts "#{greeting}, #{name}!"
 end
 
 def return_a_value
-  return "Nice"
+  "Nice"
 end
 
 def last_evaluated_value
+  skill_level = "beginner"
+  skill_level = "intermediate"
   skill_level = "expert"
 end
 
