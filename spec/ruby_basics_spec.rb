@@ -15,7 +15,7 @@ describe "ruby" do
 
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
-      value = "Bob"
+      value = "Bobby"
 
       expect(assign_variable(value)).to eq(value)
     end
