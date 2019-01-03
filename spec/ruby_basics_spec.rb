@@ -1,6 +1,7 @@
 require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
+RSpec::Expectations.configuration.on_potential_false_positives = :nothing
 
 describe "ruby" do
 
