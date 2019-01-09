@@ -1,27 +1,38 @@
+require 'pry'
+
+#1 
 def division(num1, num2)
- 
+num1 / num2
+binding.pry
 end
 
-def assign_variable(value)
-  
+#2
+def assign_variable(name)
+   name
 end
 
-def argue
-  
+#3
+def argue(phrase)
+  phrase
 end
 
-def greeting
-
+#4
+def greeting(greeting, name)
+  greeting, name
 end
 
-def return_a_value
-
+#5
+def return_a_value(phrase)
+  phrase
 end
 
-def last_evaluated_value
-
+#6
+def last_evaluated_value(expert)
+  expert
 end
 
-def pizza_party
-
+#7
+def pizza_party(pepperoni)
+pepperoni
 end
+
