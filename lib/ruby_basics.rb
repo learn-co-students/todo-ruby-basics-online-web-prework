@@ -14,11 +14,11 @@ def greeting(greeting,name)
 "#{greeting}, #{name}"
 end
 
-def return_a_value(phrase2="Nice")
-phrase2
+def return_a_value
+phrase2="Nice"
 end
 
-def last_evaluated_value(phrase3="expert")
+def last_evaluated_value
 phrase3="expert"
 end
 
