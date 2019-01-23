@@ -1,16 +1,18 @@
 def division(num1, num2)
- 
-end
+devision=6
+ end
 
 def assign_variable(value)
-  
+  value="Bob"
+  end
+
+def argue(phrase)
+phrase= "I'm right and you are wrong!"
 end
 
-def argue
+def greeting(name)
   
-end
-
-def greeting
+  
 
 end
 
