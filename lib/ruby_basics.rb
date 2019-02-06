@@ -1,4 +1,3 @@
-require 'pry'
 def division(num1=42, num2=7)
  num1 / num2
 end
@@ -10,14 +9,9 @@ def argue (phrase= "I'm right and you are wrong!")
   phrase
 end
 
-def greeting(greeting="Hi there, ", name="Bobby!")
-  puts #{greeting} #{name}
+def greeting (greeting, name)
+  greeting
 end
-
-#def greeting (greet="Hi there, ", name="Bobby!")
-#   puts greet name
-#binding.pry
-#end
 
 def return_a_value 
   it = "Nice"
