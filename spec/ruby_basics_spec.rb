@@ -9,6 +9,27 @@ describe "ruby" do
       num1 = 42
       num2 = 7
 
+  describe '#return_a_value' do
+    it 'returns the phrase "Nice"' do
+      expect(return_a_value).to eq("Nice")
+    end
+  end
+
+  describe '#last_evaluated_value' do
+    it 'returns the phrase "expert"' do
+      expect(last_evaluated_value).to eq("expert")
+    end
+  end
+
+  describe '#pizza_party' do
+    it 'returns "cheese" by default' do
+      expect(pizza_party).to eq("cheese")
+    end
+
+    it 'returns the argument it received' do
+      expect(pizza_party("pepperoni")).to eq("pepperoni")
+    end
+
       expect(division(num1,num2)).to eq(6)
     end
   end
@@ -43,26 +64,5 @@ describe "ruby" do
       expect{ greeting(greeting)}.to raise_error
     end
   end
-
-  describe '#return_a_value' do
-    it 'returns the phrase "Nice"' do
-      expect(return_a_value).to eq("Nice")
-    end
-  end
-
-  describe '#last_evaluated_value' do
-    it 'returns the phrase "expert"' do
-      expect(last_evaluated_value).to eq("expert")
-    end
-  end
-
-  describe '#pizza_party' do
-    it 'returns "cheese" by default' do
-      expect(pizza_party).to eq("cheese")
-    end
-
-    it 'returns the argument it received' do
-      expect(pizza_party("pepperoni")).to eq("pepperoni")
-    end
   end
 end
