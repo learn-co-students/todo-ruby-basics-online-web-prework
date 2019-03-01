@@ -19,11 +19,11 @@ phrase="Nice"
 end
 
 def last_evaluated_value
+  phrase="incompetent"
   phrase="expert"
 
 end
 
 def pizza_party(topping="cheese")
-puts topping
-phrase=topping
+topping
 end
