@@ -1,29 +1,28 @@
-def division (num1 = 42, num2=7)
-  (num1/num2)
+def division(num1,num2)
+  num1 / num2
 end
 
-def assign_variable(name = "Bob")
-  name
+def assign_variable(name)
+  variable = "#{name}"
 end
 
-def argue(name)
-"#{name}"
+def argue(phrase)
+  "#{phrase}"
 end
 
-def greeting(name, language)
-  puts "#{name}, #{language}"
+def greeting(poop,pee)
 end
 
 def return_a_value
-  "Nice"
+  phrase = "Nice"
+    phrase
 end
 
 def last_evaluated_value
-  "expert"
+  phrase = "expert"
+    phrase
 end
 
-def pizza_party(flavor = "cheese")
+def pizza_party(flavor ="cheese")
   "#{flavor}"
 end
-
-pizza_party("pepperoni")
