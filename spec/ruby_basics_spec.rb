@@ -2,7 +2,7 @@ require 'spec_helper'
 require_relative '../lib/ruby_basics.rb'
 
 
-describe "ruby" do
+describe def "ruby" do
 
   describe "#division" do
     it 'given two numbers returns quotient of the first number divided by the second number' do
