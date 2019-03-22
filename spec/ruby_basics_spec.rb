@@ -60,9 +60,10 @@ describe "ruby" do
     it 'returns "cheese" by default' do
       expect(pizza_party).to eq("cheese")
     end
-
-    it 'returns the argument it received' do
-      expect(pizza_party("pepperoni")).to eq("pepperoni")
-    end
+ it 'should allow you to set a meal' do
+    expect(meal_choice("vegan")).to eq("vegan")
+  end
+end
+   
   end
 end
