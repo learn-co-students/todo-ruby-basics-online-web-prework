@@ -1,8 +1,8 @@
-def division(num1, num2)
+def division("42\7")
  
 end
 
-def assign_variable(value)
+def assign_variable("bob")
   
 end
 
@@ -10,18 +10,18 @@ def argue
   
 end
 
-def greeting
+def greeting ("hi,there")
 
 end
 
-def return_a_value
+def return_a_value ("nice")
 
 end
 
-def last_evaluated_value
+def last_evaluated_value ("expert")
 
 end
 
-def pizza_party
+def pizza_party ("cheese")
 
 end
