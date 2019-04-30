@@ -1,25 +1,17 @@
 def division (num1, num2)
   
- num1 / num2
+ num1/num2
  
-puts sum
- 
-end
+puts sum end
 
 def assign_variable(value)
-  "#{value}"
-  
-end
+  "#{value}" end
 
 def argue(phrase)
-  "#{phrase}"
-  
-end
+  "#{phrase}" end
 
-def greeting (greeting, name)
-  "#{greeting, name}"
-
-end
+def greeting (greeting,name)
+  "#{greeting, name}" end
 
 def return_a_value
  "nice" 
@@ -27,11 +19,8 @@ def return_a_value
 end
 
 def last_evaluated_value
-  "expert"
-
+  "expert" 
 end
 
-def pizza_party (topping = "cheese")
-  "#{topping}"
-
-end
+def pizza_party = (topping = "cheese")
+  "#{topping}" end
