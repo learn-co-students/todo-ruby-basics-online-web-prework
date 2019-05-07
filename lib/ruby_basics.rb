@@ -10,11 +10,11 @@ def argue
   
 end
 
-def greeting
+def  puts "greeting"
 
 end
 
-def return_a_value
+def return_a_value = "Expert"
 
 end
 
@@ -22,6 +22,6 @@ def last_evaluated_value
 
 end
 
-def pizza_party
+def pizza_party = ("Cheese")
 
 end
