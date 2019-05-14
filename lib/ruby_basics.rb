@@ -1,13 +1,15 @@
+num1 = 42
+num2 = 7
 def division(num1, num2)
  num1 / num2
 end
 
-def assign_variable(var = "name")
-  
+def assign_variable(name)
+  return  Bob
 end
 
-def argue()
-  
+def argue(phrase)
+  phrase = "I'm right aand you're wrong."
 end
 
 def greeting
@@ -22,6 +24,6 @@ def last_evaluated_value
 
 end
 
-def pizza_party
+def pizza_party()
  returns "cheese"
 end
