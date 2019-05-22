@@ -1,17 +1,18 @@
-def division(num1, num2)
- 
+def  '(42, 7')' do'
+  '(first_num/second_num)''
 end
 
 def assign_variable(value)
-  
+  current_president = "Barack Obama";
+puts "In 2016, the president was {current_president}"
 end
 
 def argue
   
 end
 
-def greeting
-
+def #Greeting
+puts "Hello World"
 end
 
 def return_a_value
