@@ -22,10 +22,10 @@ end
 argue
 
 def greeting(greeting, name)
-  
+  puts "Hello #{name}!"
 end
 
-greeting(greeting, name)
+greeting("Hello", "David")
 
 def return_a_value
   return "value = a"
