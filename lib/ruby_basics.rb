@@ -4,6 +4,7 @@ def division(num1, num2)
  num1 / num2
 end
 
+var name = Bob
 def assign_variable(name)
   return  Bob
 end
