@@ -1,27 +1,26 @@
 def division(num1, num2)
- 
+ puts division(20,2)
 end
 
-def assign_variable(value)
-  
+def assign_variable(name)
+  puts "#{name}"
 end
 
-def argue
-  
-end
-
-def greeting
+def argue(n)
 
 end
 
-def return_a_value
-
+def greeting(n,y)
 end
 
-def last_evaluated_value
-
+def return_a_value(y)
+  puts return_a_value(Nice)
 end
 
-def pizza_party
+def last_evaluated_value(y)
+ puts last_evaluated_value(expert)
+end
+
+def pizza_party("puts cheese")
 
 end
