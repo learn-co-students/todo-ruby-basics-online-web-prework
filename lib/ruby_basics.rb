@@ -1,13 +1,14 @@
-def division(num1, num2)
- 
+def division(num1,num2)
+  num1 = 36
+  num2 = 6
 end
 
-def assign_variable(value)
-  
+def name("BOB")
+  puts "#{name}"
 end
 
-def argue
-  
+def argue("I'm right and you are wrong!")
+
 end
 
 def greeting
