@@ -1,24 +1,28 @@
-def division(num1, num2)
- 
+12/2
+
+
+def
+x= bob
 end
 
-def assign_variable(value)
-  
-end
-
-def argue
-  
-end
-
-def greeting
+def
+  add_two(number)
+  number + 2
 
 end
 
-def return_a_value
-
+def
+  puts"hello World!"
 end
 
-def last_evaluated_value
+def
+  3.times{print"hello!"}
+end
+
+def
+  Fave_pizza
+  puts "cheese"
+
 
 end
 
