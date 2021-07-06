@@ -46,23 +46,27 @@ describe "ruby" do
 
   describe '#return_a_value' do
     it 'returns the phrase "Nice"' do
-      expect(return_a_value).to eq("Nice")
+      personality = "Nice"
+      expect(return_a_value(personality)).to eq("Nice")
     end
   end
 
   describe '#last_evaluated_value' do
     it 'returns the phrase "expert"' do
-      expect(last_evaluated_value).to eq("expert")
+      level = "expert"
+      expect(last_evaluated_value(level)).to eq("expert")
     end
   end
 
   describe '#pizza_party' do
     it 'returns "cheese" by default' do
-      expect(pizza_party).to eq("cheese")
+      topping = "cheese
+      expect(pizza_party(topping = "cheese")).to eq("cheese")
     end
 
     it 'returns the argument it received' do
-      expect(pizza_party("pepperoni")).to eq("pepperoni")
+      topping = "pepperoni"
+      expect(pizza_party(topping)).to eq("pepperoni")
     end
   end
 end
