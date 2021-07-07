@@ -6,9 +6,11 @@ describe "ruby" do
 
   describe "#division" do
     it 'given two numbers returns quotient of the first number divided by the second number' do
+  
       num1 = 42
       num2 = 7
-
+  
+  
       expect(division(num1,num2)).to eq(6)
     end
   end
