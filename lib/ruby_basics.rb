@@ -1,8 +1,8 @@
-def division(num1, num2)
- 
+def division 
+  45/7.to_i
 end
 
-def assign_variable(value)
+def name("Bob")
   
 end
 
