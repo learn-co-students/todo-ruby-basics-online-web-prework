@@ -1,27 +1,31 @@
-def division(num1, num2)
+def division(7 / 3)
  
 end
 
-def assign_variable(value)
+def assign_variable(name)
+  name = Steve
+end
+
+def argue(language)
   
 end
 
-def argue
+def greeting(name,language)
   
-end
-
-def greeting
+  puts "I love to study with #{Steve}"
 
 end
 
 def return_a_value
+  "Nice"
 
 end
 
 def last_evaluated_value
+  "expert"
 
 end
 
-def pizza_party
+def pizza_party(fun = "cheese")
 
 end
