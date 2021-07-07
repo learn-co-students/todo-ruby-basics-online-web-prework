@@ -1,17 +1,17 @@
 def division(num1, num2)
- 
+  12 / 2 
+ end
+
+def assign_variable(name = "Bob")
+  puts ({#name})
 end
 
-def assign_variable(value)
-  
+def argue(name="Royce")
+  puts ("Hello #{name}")
 end
 
-def argue
-  
-end
-
-def greeting
-
+def greeting(name, nationality)
+  puts "Hi #{name} who is of #{nationality} descent"
 end
 
 def return_a_value
