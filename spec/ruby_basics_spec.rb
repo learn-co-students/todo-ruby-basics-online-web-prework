@@ -12,7 +12,7 @@ describe "ruby" do
       expect(division(num1,num2)).to eq(6)
     end
   end
-
+binding.pry
   describe '#assign_variable' do
     it 'takes an argument of a persons name and assign it to a variable name' do
       value = "Bob"
